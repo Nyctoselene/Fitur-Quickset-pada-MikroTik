@@ -1,5 +1,5 @@
 # Fitur-Quick-Set-pada-MikroTik
-Quick Set merupakan sebuah fitur pada MikroTik yang menyajikan interface konfigurasi awal MikroTik yang disederhanakan dan lebih cepat, memungkinkan pengguna untuk mengatur router dengan beberapa klik saja. Berikut beberapa contoh penggunaan fitur Quick Set:
+Quick Set merupakan fitur pada MikroTik yang menyajikan interface konfigurasi awal MikroTik yang disederhanakan dan lebih cepat, memungkinkan pengguna untuk mengatur router dengan beberapa klik saja. Berikut beberapa contoh penggunaan fitur Quick Set:
 
 # 1. Sumber Internet DHCP
  Berikut topologinya:
@@ -42,3 +42,12 @@ Quick Set merupakan sebuah fitur pada MikroTik yang menyajikan interface konfigu
 
  • Klik OK\
  • Cek pada tab DHCP Client, IP Address, dan Firewall untuk menyesuaikan dengan yang sudah di setting
+
+Keuntungan dari fitur Quick Set ini adalah:\
+ ⦁ Waktu yang digunakan untuk konfigurasi sangatlah singkat.\
+ ⦁ konfigurasi awal menjadi lebih praktis
+ 
+ Kesimpulan :\
+ ⦁	Futur Quick Set ini berguna untuk mempersingkat waktu konfigurasi awal dengan membuatnya lebih praktis dan mudah dipahami.\
+
+Sekian yang dapat saya sampaikan, mohon maaf apabila ada salah kata atau kekurangan dalam penyampaian. Akhir kata, Wassalam
