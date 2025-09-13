@@ -19,3 +19,26 @@ Quick Set merupakan sebuah fitur pada MikroTik yang menyajikan interface konfigu
 
  • Klik OK\
  • Cek pada tab DHCP Client, IP Address, dan Firewall untuk menyesuaikan dengan yang sudah di setting
+
+
+# 1. Sumber Internet Static
+ Berikut topologinya:
+
+![TopoS](TopoS.png)
+
+ • Log in ke Mikrotik menggunakan Winbox (pastikan MikroTik dalam keadaan kosong/tanpa konfigurasi) \
+ • Klik tab Quick Set pada bagian paling kiri atas\
+ • Isi dengan contoh format sebagai berikut\
+  Mode                    : Router\
+  Address Acquistion      : Static
+  Internet IP Address     : 192.168.70.49 (Jika tidak tahu IP default ISP bisa cek repo sebelumnya yang berjudul "Mengoneksikan MikroTik ke Internet") \
+  Gateway                 : 172.16.16.1
+  DNS Server              : 8.8.8.8
+  Local Network IP Address: 172.16.16.30\
+                   Netmask: 255.255.255.128(/25) \
+  Ceklis NAT
+
+![Quick Set S](Quick%20Set%20S.png) 
+
+ • Klik OK\
+ • Cek pada tab DHCP Client, IP Address, dan Firewall untuk menyesuaikan dengan yang sudah di setting
